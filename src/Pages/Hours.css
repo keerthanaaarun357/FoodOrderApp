@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.fullPage {
+	background-image: url("C:\Users\Athira\assignment\public\menu_bg.jpeg");
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position:sticky;
+	top: 0;
+	cursor: pointer;
+	height: 100px;
+}
+
+.a {
+	font-size: 20px;
+}
+
+.text-big {
+	font-weight: 500;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana,
+		sans-serif;
+	font-size: 40px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.text-mid {
+	font-weight: 500;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana,
+		sans-serif;
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.text-small {
+	font-weight: 300;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana,
+		sans-serif;
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.hrs_img {
+    width: 50%;
+    height: 400px;
+}
+
+.title {
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 40%;
+    float: left;
+}
+
+.about {
+    margin-top: 4%;
+    margin-left: 5%;
+	margin-right: 5%;
+    width: 40%;
+    float: right;
+}
+
+.footerA {
+	background-color: #150000;
+	margin-top: 1100px;
+}
+
+.nav-list {
+	width: 70%;
+	display: flex;
+}
+
+.logo {
+	width: 30%;
+	display: flex;
+}
+
+.nav-list li {
+	list-style: none;
+	padding: 26px 30px;
+	text-align: right;
+}
+
+.logo li {
+	list-style: none;
+	padding: 26px 30px;
+	text-align: right;
+}
+
+.nav-list li a {
+	text-decoration: none;
+    text-size-adjust: 20px;
+	color: #dc2121;
+	text-align: center;
+}
+
+.logo li a {
+	text-decoration: none;
+    text-size-adjust: 60px;
+	color: #e3471b;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+}
+
+.logo li {
+	list-style: none;
+	padding: 26px 30px;
+	text-align: right;
+}
+
+.nav-list li a {
+	text-decoration: none;
+    text-size-adjust: 20px;
+	color: #dc2121;
+	text-align: center;
+}
+
+.nav-list li a:hover {
+	color: rgb(203, 110, 17);
+}
